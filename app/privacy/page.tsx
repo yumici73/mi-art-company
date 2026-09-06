@@ -1,0 +1,3 @@
+import {PageShell} from '@/components/site';
+export const metadata={title:'개인정보 안내 | 미아트컴퍼니'};
+export default function Page(){return <PageShell eyebrow="PRIVACY" title="개인정보 수집·이용 안내" description="문의 상담을 위해 필요한 정보를 안내합니다."><section className="section legal"><h2>문의 접수 시 수집하는 정보</h2><p>이름, 연락처, 이메일, 문의 분야와 내용, 기관명(선택)을 수집합니다. 입력한 정보는 문의 확인과 상담, 회신에 사용합니다.</p><h2>보관과 삭제</h2><p>접수한 정보는 상담이 종료되면 관리자가 삭제합니다. 문의 내용에 불필요한 민감정보를 기재하지 말아 주세요.</p><h2>동의 거부</h2><p>개인정보 수집·이용 동의를 거부할 수 있습니다. 다만 동의하지 않으면 문의 양식을 통한 접수가 어렵습니다.</p><h2>개인정보 관련 요청</h2><p>개인정보 열람·정정·삭제 요청은 문의 양식을 통해 접수할 수 있습니다.</p></section></PageShell>}

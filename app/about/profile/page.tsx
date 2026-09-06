@@ -1,0 +1,3 @@
+import {PageShell,FeatureRows} from '@/components/site';
+export const metadata={title:'김유미 PROFILE | 미아트컴퍼니'};
+export default function Page(){return <PageShell eyebrow="ARTISTIC DIRECTOR" title="김유미" description="전통을 계승하는 무용가이자 무대를 만드는 창작자이며, 예술을 사람과 사회로 확장하는 예술교육가."><section className="section"><div className="editorial"><h2>춤의 뿌리를 지키며,<br/>예술의 경계를 넓힙니다.</h2><p>기획과 대본, 연출과 안무, 그리고 무용. 김유미 대표·예술감독은 창작과 전승, 예술교육이라는 세 가지 정체성을 하나의 예술세계로 이어갑니다.</p></div><FeatureRows items={[{title:'Artist',body:'미아트컴퍼니 대표 / 예술감독 · 공연 기획, 대본, 연출, 안무, 무용'},{title:'Tradition',body:'진주교방문화원 원장 · 진주교방굿거리춤 이수자 · 정혜윤 선생님의 전통춤 계보 계승과 교육'},{title:'Community',body:'스토리댄스 디렉터 · 커뮤니티아트 프로그램 개발, 예술교육, 강사양성'}]}/></section></PageShell>}

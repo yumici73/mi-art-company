@@ -1,0 +1,4 @@
+import {PageShell,FeatureRows} from '@/components/site';
+import Link from 'next/link';
+export const metadata={title:'HERITAGE · 진주교방문화원 | 미아트컴퍼니'};
+export default function Page(){return <PageShell eyebrow="02 / HERITAGE" title="이어받은 몸짓, 이어갈 정신." description="진주교방문화원은 전통춤의 계승과 연구, 교육을 통해 춤의 깊이를 다음 세대에 전합니다."><section className="section"><div className="editorial"><h2>스승에게서 이어진 춤,<br/>다음 세대로 이어지는 호흡.</h2><p>김유미 원장은 정혜윤 선생님에게서 이어받은 전통춤의 정신과 몸짓을 계승합니다. 전승의 가치를 공연과 교육 현장에서 함께 나누고자 합니다.</p></div><FeatureRows items={[{title:'진주교방굿거리춤',body:'경남무형유산 진주교방굿거리춤의 전승과 교육 활동을 이어갑니다.'},{title:'진주교방살풀이춤',body:'전통춤 레퍼토리의 아름다움과 정신을 탐구하고 나눕니다.'},{title:'교육 · 전승 활동',body:'전통춤 교육과 공연을 통해 춤의 정신과 몸짓을 배우고 이어갑니다.'}]}/><Link className="text-link" href="/archive?category=Heritage">전승 활동 아카이브 ↗</Link></section></PageShell>}

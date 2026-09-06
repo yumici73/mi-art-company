@@ -1,0 +1,4 @@
+import {PageShell,FeatureRows} from '@/components/site';
+import Link from 'next/link';
+export const metadata={title:'ABOUT | 미아트컴퍼니'};
+export default function Page(){return <PageShell eyebrow="ABOUT MI ART COMPANY" title="전통에서 시작해, 사람에게 닿는 예술." description="미아트컴퍼니는 공연·창작, 전통예술 계승, 커뮤니티아트와 예술교육을 연결하는 문화예술단체입니다."><section className="section"><div className="editorial"><h2>세 가지 움직임이<br/>하나의 세계가 됩니다.</h2><div><p>진주교방문화원의 전통춤 계승과 연구를 뿌리로 삼아, 미아트컴퍼니의 공연예술을 창작합니다. 스토리댄스는 그 예술을 교육과 커뮤니티아트로 확장하여 사람과 사회를 연결합니다.</p><Link className="text-link" href="/about/profile">김유미 대표 · 예술감독 ↗</Link></div></div><FeatureRows items={[{title:'ROOT · 전통을 잇다',body:'진주교방문화원을 통해 전통춤의 정신과 몸짓을 계승합니다.'},{title:'CREATION · 예술을 만들다',body:'전통과 동시대의 이야기를 공연예술로 창작합니다.'},{title:'CONNECTION · 사람을 잇다',body:'스토리댄스를 통해 예술을 무대 밖으로 확장하고 공동체와 만납니다.'}]}/></section></PageShell>}
